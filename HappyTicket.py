@@ -3,7 +3,7 @@ n = ""
 sum1 = sum2 = 0
 
 while len(n) != 6 :
-	n = input("Entered a ticket number:")
+	n = input("Enter a ticket number:")
 
 for i in range(3):
 	sum1 += int(n[i])
